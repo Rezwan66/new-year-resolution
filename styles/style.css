@@ -10,7 +10,7 @@ body {
 
 /* banner styles */
 
-.banner{
+.banner {
     display: flex;
     width: 100wh;
     background-image: url("../images/banner/banner3.png");
@@ -58,3 +58,48 @@ body {
 
 /* failures styles */
 
+.failures-section {
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.failures-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 134px;
+    align-items: center;
+}
+
+.failure-text {
+    max-width: 416px;
+}
+
+.failure-list {
+    list-style: none;
+}
+
+.failure-list li:before {
+    content: '✓ ';
+    color: #16D887;
+    font-size: 24px;
+}
+
+.failure-img img {
+    width: 451px;
+}
+
+.failure-title {
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
