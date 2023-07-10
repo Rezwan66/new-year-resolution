@@ -115,3 +115,65 @@ body {
     font-weight: 400;
     margin-bottom: 16px;
 }
+
+/* plans section styles */
+
+.plans-title {
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.plans-container img {
+    width: 92.958px;
+    height: 92.958px;
+    margin-bottom: 25px;
+}
+
+.plans-container h3 {
+    color: var(--dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plans-container p {
+    color: var(--dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* call now section styles */
+
+.call-now-container {
+    padding-left: 64px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
+    /* background-blend-mode: overlay; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    height: 280px;
+    width: 78%;
+    margin: auto;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.call-now-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
